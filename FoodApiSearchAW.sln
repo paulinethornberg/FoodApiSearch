@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10449313-69BE-487A-8AE7-41C050207094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46BFB3B5-2137-4F0B-8148-6A9FC30ADFE2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FoodApiSearchAW", "src\FoodApiSearchAW\FoodApiSearchAW.xproj", "{FCBAADBF-BE46-4027-8357-B45742165496}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D9864897-DB3F-4052-8FAE-2E5B5CB633AA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestFoodApiSearchAW", "test\TestFoodApiSearchAW\TestFoodApiSearchAW.xproj", "{8AC44772-2BAB-473C-8E3E-C58EEB65943A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBAADBF-BE46-4027-8357-B45742165496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBAADBF-BE46-4027-8357-B45742165496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBAADBF-BE46-4027-8357-B45742165496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBAADBF-BE46-4027-8357-B45742165496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC44772-2BAB-473C-8E3E-C58EEB65943A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC44772-2BAB-473C-8E3E-C58EEB65943A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC44772-2BAB-473C-8E3E-C58EEB65943A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC44772-2BAB-473C-8E3E-C58EEB65943A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCBAADBF-BE46-4027-8357-B45742165496} = {10449313-69BE-487A-8AE7-41C050207094}
+		{8AC44772-2BAB-473C-8E3E-C58EEB65943A} = {D9864897-DB3F-4052-8FAE-2E5B5CB633AA}
+	EndGlobalSection
+EndGlobal
